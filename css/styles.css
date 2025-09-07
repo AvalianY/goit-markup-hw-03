@@ -187,6 +187,7 @@ main h2 {
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 
@@ -234,7 +235,7 @@ main h2 {
     line-height: 1.5;
 }
 
-.ul-advantage-section {
+.li-advantage-section {
     width: calc((100% - 72px) / 4);
 }
 /*---------------------main team---------------------*/
@@ -255,9 +256,15 @@ main h2 {
     color: var(--navy-blue);
 }
 
+.main-h {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 .main-p-team {
     line-height: 1.5;
     color: var(--slate);
+    text-align: center;
 }
 
 .div-team-section {
@@ -291,7 +298,7 @@ footer .container > *{
 
 .footer {
     background-color: var(--navy-blue);
-    padding: 100px 0ж
+    padding: 100px 0;
 }
 
 .footer a {
