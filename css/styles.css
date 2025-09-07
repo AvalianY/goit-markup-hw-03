@@ -275,12 +275,22 @@ main h2 {
     flex-wrap: wrap;
 }
 
+.div-portfolio-section {
+    padding: 32px 16px;
+    border: 1px solid var(--cornflower);
+    border-top: none;
+}
+
 .main-portfolio-title {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+}
+
+.main-portfolio-section h3 {
+    margin-bottom: 8px;
 }
 
 .portfolio-card p {
