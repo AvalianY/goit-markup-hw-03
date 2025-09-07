@@ -273,6 +273,7 @@ main h2 {
 /*---------------------main portfolio----------------*/
 .main-portfolio-section ul {
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 
 .div-portfolio-section {
