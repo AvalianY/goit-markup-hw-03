@@ -44,6 +44,7 @@ h3 {
 
 ul {
     list-style-type: none;
+    gap: 24px;
 }
 
 a {
@@ -77,6 +78,7 @@ section {
 /*---------------------header-----------------------*/
 .header {
     background-color: var(--white);
+    border-bottom: 1px solid var(--cornflower);
 }
 
 header .container {
@@ -99,6 +101,7 @@ header .container>* {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;
 }
 
 .header-logo-word {
@@ -111,6 +114,7 @@ nav {
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+    align-items: center;
 }
 
 .header-nav-ul {
@@ -127,6 +131,7 @@ nav {
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-address {
@@ -163,7 +168,7 @@ main ul {
     align-items: flex-start;
     justify-content: flex-end;
     flex-direction: row;
-    gap: 48px 24px;
+    gap: 24px;
 }
 
 main h2 {
@@ -173,6 +178,7 @@ main h2 {
 /*---------------------main section 1---------------*/
 .main-first-secion {
     background-color: var(--navy-blue);
+    padding: 188px 0;
 }
 
 .main-title {
@@ -180,8 +186,9 @@ main h2 {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    margin-top: 188px;
+    max-width: 496px;
 }
+
 
 .main-order-button {
     color: var(--white);
@@ -193,6 +200,9 @@ main h2 {
     border-radius: 4px;
     display: block;
     margin: 48px auto 188px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .main-order-button:hover, .main-order-button:focus {
@@ -217,10 +227,15 @@ main h2 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-bottom: 8px;
 }
 
 .main-p-advantage {
     line-height: 1.5;
+}
+
+.ul-advantage-section {
+    width: calc((100% - 72px) / 4);
 }
 /*---------------------main team---------------------*/
 .main-team-section {
@@ -229,6 +244,7 @@ main h2 {
 
 .main-team-section li {
     background-color: var(--white);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .main-team-title {
@@ -242,6 +258,10 @@ main h2 {
 .main-p-team {
     line-height: 1.5;
     color: var(--slate);
+}
+
+.div-team-section {
+    padding: 32px 0
 }
 /*---------------------main portfolio----------------*/
 .main-portfolio-section ul {
@@ -271,11 +291,13 @@ footer .container > *{
 
 .footer {
     background-color: var(--navy-blue);
-
+    padding: 100px 0ж
 }
 
 .footer a {
     background-color: var(--navy-blue);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-word {
@@ -285,5 +307,4 @@ footer .container > *{
 .footer-slogan {
     line-height: 1.5;
     color: var(--cloud);
-    margin-top: 14px;
 }
