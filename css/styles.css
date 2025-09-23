@@ -239,6 +239,7 @@ main .container {
     text-transform: capitalize;
     color: var(--navy-blue);
     font-size: 36px;
+    margin-bottom: 72px;
 }
 
 .main-team-section .main-h {
@@ -285,6 +286,7 @@ main .container {
     text-transform: capitalize;
     color: var(--navy-blue);
     font-size: 36px;
+    margin-bottom: 72px;
 }
 
 .portfolio-p {
@@ -308,6 +310,7 @@ main .container {
     letter-spacing: 0.03em;
     background-color: var(--navy-blue);
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-word {
