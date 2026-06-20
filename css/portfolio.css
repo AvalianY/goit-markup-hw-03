@@ -1,0 +1,35 @@
+.main-portfolio-section {
+    padding: 120px 0;
+}
+
+.ul-portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+    justify-content: center;
+}
+
+.portfolio-card {
+    flex: 1 1 calc((100% - 72px) / 3);
+}
+
+.div-portfolio-section {
+    padding: 32px 16px;
+    border: 1px solid var(--cornflower);
+    border-top: none;
+}
+
+.main-portfolio-title {
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+    font-size: 36px;
+    margin-bottom: 72px;
+}
+
+.portfolio-p {
+    line-height: 1.5;
+}

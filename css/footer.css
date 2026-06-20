@@ -1,0 +1,27 @@
+.footer {
+    background-color: var(--navy-blue);
+    padding: 100px 0;
+}
+
+.footer-logo-a {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--iris);
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    background-color: var(--navy-blue);
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-logo-word {
+    color: var(--cloud);
+}
+
+.footer-slogan {
+    line-height: 1.5;
+    color: var(--cloud);
+    max-width: 264px;
+}

@@ -1,0 +1,78 @@
+.header {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--cornflower);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-a {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--iris);
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-right: 76px;
+    background-color: var(--white);
+}
+
+.header-logo-word {
+    color: var(--grey);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.nav-ref {
+    color: var(--navy-blue);
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+}
+
+.nav-ref:focus,
+.nav-ref:hover,
+.address-ref:focus,
+.address-ref:hover {
+    color: var(--ocean);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.ul-address {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.address-ref {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--slate);
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+}
