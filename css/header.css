@@ -6,7 +6,6 @@
 header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header-logo-a {
@@ -15,7 +14,7 @@ header .container {
     font-size: 18px;
     color: var(--iris);
     text-transform: uppercase;
-    line-height: 1.17;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     margin-right: 76px;
     background-color: var(--white);
@@ -32,9 +31,7 @@ header .container {
 
 .header-nav-ul {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
+    align-items: center;
     gap: 40px;
 }
 
@@ -57,13 +54,12 @@ header .container {
 
 .header-address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .ul-address {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    flex-direction: row;
+    align-items: center;
     gap: 40px;
 }
 
